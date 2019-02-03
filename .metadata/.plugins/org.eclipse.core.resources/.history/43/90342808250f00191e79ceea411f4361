@@ -1,0 +1,47 @@
+package mypack;
+
+import javax.servlet.annotation.WebListener;
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+
+/**
+ * Application Lifecycle Listener implementation class OnlineCounterListener
+ *
+ */
+@WebListener
+public class OnlineCounterListener implements HttpSessionListener {
+
+    /**
+     * Default constructor. 
+     */
+    public OnlineCounterListener() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+     * @see HttpSessionListener#sessionCreated(HttpSessionEvent)
+     */
+    public void sessionCreated(HttpSessionEvent se)  { 
+         // TODO Auto-generated method stub
+    	HttpSession session=event.getSession();
+        ServletContext context=session.getServletContext();
+        Integer counter=(Integer)context.getAttribute("counter"); 
+        if(counter==null)
+          counter=new Integer(1);
+        else
+          counter=new Integer(counter+1);
+
+        context.setAttribute("counter",counter);
+            //把会话的过期时间设为60秒
+        session.setMaxInactiveInterval(60);
+           System.out.println("A new session is created.");
+    }
+
+	/**
+     * @see HttpSessionListener#sessionDestroyed(HttpSessionEvent)
+     */
+    public void sessionDestroyed(HttpSessionEvent se)  { 
+         // TODO Auto-generated method stub
+    }
+	
+}

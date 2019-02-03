@@ -1,0 +1,16 @@
+127.0.0.1 - - [04/Jan/2019:00:01:08 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:01:10 +0800] "GET /reservation/login.jsp HTTP/1.1" 200 1562
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:02:30 +0800] "POST /reservation/happy HTTP/1.1" 404 1095
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:02 +0800] "GET /reservation/login.jsp HTTP/1.1" 200 1561
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:02 +0800] "GET /reservation/login.jsp HTTP/1.1" 200 1561
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:02 +0800] "GET /reservation/login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:02 +0800] "GET /reservation/settled.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:02 +0800] "GET /reservation/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:03 +0800] "GET /reservation/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:03:07 +0800] "POST /reservation/book HTTP/1.1" 200 23
+127.0.0.1 - - [04/Jan/2019:09:37:56 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:09:37:59 +0800] "GET /reservation/login.jsp HTTP/1.1" 200 1565
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:09:38:07 +0800] "GET /reservation/UserLogin?usrName=apple&usrKey=today HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jan/2019:09:57:44 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:09:57:45 +0800] "GET /reservation/NewFile.html HTTP/1.1" 200 215
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:09:58:11 +0800] "GET /reservation/NewFile.html HTTP/1.1" 200 235

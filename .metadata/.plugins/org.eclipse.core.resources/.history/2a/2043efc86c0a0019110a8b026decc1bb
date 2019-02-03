@@ -1,0 +1,305 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>预约</title>
+	<link href="reservation.css" rel="stylesheet">
+	<link href="settled.css" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand">东方体育中心</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      	<span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="Hello.jsp">首页 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.jsp">新闻 </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rvnintro.jsp">场馆介绍</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">场馆预约</a>
+            <div class="dropdown-menu dropdown-top" aria-labelledby="dropdown03">
+              <a class="dropdown-item dropdown-word" href="reservation.jsp?rnvid=1">篮球</a>
+              <a class="dropdown-item dropdown-word" href="reservation.jsp?rnvid=2">乒乓球</a>
+              <a class="dropdown-item dropdown-word" href="reservation.jsp?rnvid=3">羽毛球</a>
+              <a class="dropdown-item dropdown-word" href="reservation.jsp?rnvid=4">排球</a>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="messageboard.jsp">留言板</a>
+          </li>
+          <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            	<i class="ps-icon"></i>
+            	<%= session.getAttribute("usrName") %>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-top" aria-labelledby="userDropdown">
+              <a class="dropdown-item dropdown-word" href="UserInform.jsp">个人信息</a>
+              <a class="dropdown-item dropdown-word" href="myorder.jsp">我的订单</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item dropdown-word" href="#" data-toggle="modal" data-target="#logoutModal">登出</a>
+            </div>
+        </li>
+      </ul>
+      </div>
+    </nav>
+    <div class="table-responsive">
+<div id="datatable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="datatable_length"><label>Show <select name="datatable_length" aria-controls="datatable" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-12 col-md-6"><div id="datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="datatable"></label></div></div></div><div class="row"><div class="col-sm-12"><table id="datatable" class="table table-bordered dataTable no-footer" role="grid" aria-describedby="datatable_info">
+<thead>
+<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 143px;">Name</th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 233px;">Position</th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 104px;">Office</th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 45px;">Age</th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 94px;">Start date</th><th class="sorting" tabindex="0" aria-controls="datatable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 79px;">Salary</th></tr>
+</thead>
+<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr role="row" class="odd">
+<td class="sorting_1">Airi Satou</td>
+<td>Accountant</td>
+<td>Tokyo</td>
+<td>33</td>
+<td>2008/11/28</td>
+<td>$162,700</td>
+</tr><tr role="row" class="even">
+<td class="sorting_1">Angelica Ramos</td>
+<td>Chief Executive Officer (CEO)</td>
+<td>London</td>
+<td>47</td>
+<td>2009/10/09</td>
+<td>$1,200,000</td>
+</tr><tr role="row" class="odd">
+<td class="sorting_1">Ashton Cox</td>
+<td>Junior Technical Author</td>
+<td>San Francisco</td>
+<td>66</td>
+<td>2009/01/12</td>
+<td>$86,000</td>
+</tr><tr role="row" class="even">
+<td class="sorting_1">Bradley Greer</td>
+<td>Software Engineer</td>
+<td>London</td>
+<td>41</td>
+<td>2012/10/13</td>
+<td>$132,000</td>
+</tr><tr role="row" class="odd">
+<td class="sorting_1">Brenden Wagner</td>
+<td>Software Engineer</td>
+<td>San Francisco</td>
+<td>28</td>
+<td>2011/06/07</td>
+<td>$206,850</td>
+</tr><tr role="row" class="even">
+<td class="sorting_1">Brielle Williamson</td>
+<td>Integration Specialist</td>
+<td>New York</td>
+<td>61</td>
+<td>2012/12/02</td>
+<td>$372,000</td>
+</tr><tr role="row" class="odd">
+<td class="sorting_1">Bruno Nash</td>
+<td>Software Engineer</td>
+<td>London</td>
+<td>38</td>
+<td>2011/05/03</td>
+<td>$163,500</td>
+</tr><tr role="row" class="even">
+<td class="sorting_1">Caesar Vance</td>
+<td>Pre-Sales Support</td>
+<td>New York</td>
+<td>21</td>
+<td>2011/12/12</td>
+<td>$106,450</td>
+</tr><tr role="row" class="odd">
+<td class="sorting_1">Cara Stevens</td>
+<td>Sales Assistant</td>
+<td>New York</td>
+<td>46</td>
+<td>2011/12/06</td>
+<td>$145,600</td>
+</tr><tr role="row" class="even">
+<td class="sorting_1">Cedric Kelly</td>
+<td>Senior Javascript Developer</td>
+<td>Edinburgh</td>
+<td>22</td>
+<td>2012/03/29</td>
+<td>$433,060</td>
+</tr></tbody>
+</table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a href="#" aria-controls="datatable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class="paginate_button page-item "><a href="#" aria-controls="datatable" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class="paginate_button page-item next" id="datatable_next"><a href="#" aria-controls="datatable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
+</div>
+	<div class="center">
+		<div class="btn-group btn_group_date" role="group" id="days" aria-label="First group" >
+	    </div>
+		<div class="card-body table-responsive table-show col-10">
+			<table class="table table-bordered mb-0" id="reservation-table">
+				
+			</table>
+		</div>
+	</div>
+    <footer class="footer">
+      <div class="container foot-text">
+        <span class="foot-t">Created by Jiayi Zhu & Shen Lei</span>
+      </div>
+    </footer>
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">确定登出？</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body" style="text-align:center">生命在于运动</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary btn-cencel" type="button" data-dismiss="modal">取消</button>
+            <a class="btn btn-primary" href="logout.jsp">确定</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.staticfile.org/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		addDate();
+		getTable();
+	});
+	function addDate() {
+		var d = new Date();
+		for (var i = 0; i < 4; i++) {
+			var changeID = "day" + (i + 1);
+			d = d.setDate(d.getDate() + 1);
+			d = new Date(d);
+			var changeday = d.getFullYear() + "-" + (d.getMonth()+1) + "-" + d.getDate();
+			// document.getElementById(changeID).innerHTML = changeday;
+			$("#days").append(
+					"<a type='button' class='btn btn-secondary' id='" + changeID
+					+ "' href='reservation.jsp?rnvid="+<%= request.getParameter("rnvid") %>+
+					"&year="+d.getFullYear()+"&month="+(d.getMonth()+1)+"&day="+ d.getDate() +"')>" + changeday + "</a>");
+		}
+	}
+	function getTable() {
+		var t = new Date();
+		t = t.setDate(t.getDate() + 1);
+		t = new Date(t);
+		var year = t.getFullYear();
+		var month = t.getMonth()+1;
+		var day = t.getDate();
+		var rvnid = <%= request.getParameter("rnvid") %>;
+		if(<%= request.getParameter("year") %> != null){
+			year = <%= request.getParameter("year") %>;
+			month = <%= request.getParameter("month") %>;
+			day = <%= request.getParameter("day") %>;
+		}
+		var today = year + "-" + month + "-" + day;
+		$.ajax({
+			type : "POST",
+			url : "OrderAvailable",
+			data : {
+				rvnID : rvnid,
+				rvnDate : today
+			},
+			dataType : "json",
+			success : function(data) {
+				var list="<tr><th>";
+				if(rvnid == 1){
+					list += "篮球";
+				}else if(rvnid == 2){
+					list += "乒乓球";
+				}else if(rvnid == 3){
+					list += "羽毛球";
+				}else if(rvnid == 4){
+					list += "排球";
+				}
+				list += "</th><th>场地1</th><th>场地2</th><th>场地3</th><th>场地4</th></tr>";
+				$("#reservation-table").append(list);
+				for (var j = 0; j < 8; j++) {
+					var item = "<th>" + (j + 12) + ":00 - " + (j + 13) + ":00</th>";
+					for (var i = 0; i < 4; i++) {
+						if (data[i][j] != 0) {
+							item += "<td><a href='orderadd.jsp?rvnRoom="+(i+1)+"&rvnTime="+(j+1)+"&rvnId="+
+									rvnid+"&rvnPrice="+data[i][j]+"&year="+ year+"&month="+month+"&day="+day+
+									"'>"+data[i][j]+"元</a></td>";
+						} else {
+							item += "<td><a>已预约</a></td>";
+						}
+					}
+					$("#reservation-table").append("<tr>" + item + "<tr>");
+				}
+			},
+			error : function(XMLHttpRequest, textStatus, errorThrown) {
+				alert(XMLHttpRequest.status);
+				alert(XMLHttpRequest.readyState);
+				alert(textStatus);
+			}
+		});
+	}
+	</script>
+</body>
+</html>

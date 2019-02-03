@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.center{
+	text-align:center !important;
+}
+
+[type=button]{
+	-webkit-appearance:none !important;
+	outline:none;
+}
+
+.btn_group_date{
+	padding: 1% !important;
+	margin-top:2% !important;
+}
+
+.rvn-title {
+	font-size: 20px;
+}

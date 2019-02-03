@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+ *others
+ */
+.display-text {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, .6) !important;
+}
+
+.display-button {
+  margin-top: 2rem;
+}
+
+.btn-word {
+  font-size: 18px !important;
+  padding: .5rem 1.2rem !important;
+  background-color: #ef4955 !important;
+  border-color: #ef4955 !important;
+}
+
+.first-section {
+  background-color: rgb(244, 248, 251) !important;
+}
+
+.btn-next {
+  padding: 6px 16px !important;
+  font-size: 14px !important;
+}
+
+main {
+  margin-bottom: 80px;
+}
+

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<select>
+		<option value="1">abc</option>
+		<option value="2">def</option>
+	</select>
+</body>
+</html>

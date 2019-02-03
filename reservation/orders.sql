@@ -1,0 +1,14 @@
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (2, 'bench', '14212323', 10.00, '2018-12-27', 1, 3, 5, 3);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (3, 'oxx', '12438763', 10.00, '2018-12-29', 1, 4, 3, 1);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (4, '用户1', '12312234', 10.00, '2018-12-25', 1, 1, 3, 4);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (5, 'fifo', '10983732', 21.00, '2018-12-27', 4, 2, 4, 5);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (12, '英语', '88776655', 50.00, '2019-01-01', 1, 2, 3, 2);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (13, 'apple', '22334455', 30.00, '2018-12-29', 2, 1, 1, 2);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (14, '哈哈哈', '2222222', 30.00, '2018-12-31', 2, 2, 5, 2);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (16, 'camera', '77624132', 50.00, '2018-12-29', 1, 2, 4, 9);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (17, '小王', '67623322', 60.00, '2018-12-29', 3, 2, 3, 3);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (18, '小张', '234214234', 80.00, '2018-12-29', 4, 2, 5, 2);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (19, '苹果', '234234231', 60.00, '2018-12-30', 3, 2, 5, 1);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (20, '猫咪', '2342342414', 80.00, '2019-01-01', 4, 1, 4, 2);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (21, '猫咪', '2342342414', 80.00, '2019-01-01', 4, 1, 4, 2);
+INSERT INTO `orders`(`ordID`, `ordName`, `ordPhone`, `ordPrice`, `rvnDate`, `rvnID`, `rvnRoom`, `rvnTime`, `usrID`) VALUES (22, 'juice', '34685634', 50.00, '2018-12-30', 1, 2, 3, 2);

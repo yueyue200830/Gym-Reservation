@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+
+body {
+  background-color: rgb(244, 248, 251) !important;
+}
+
+.personal-form {
+  padding: 10px;
+  width: 100%;
+  max-width: 330px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
