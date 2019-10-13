@@ -1,4 +1,4 @@
-# 东方体育中心预约系统
+# 涓滄柟浣撹偛涓績棰勭害绯荤粺
 
 Hi! This is a reservation system of **Oriental Sports Center**.
 Users are classified as two types, which are normal users and managers. Both can make operations on news, reservations, revenue introductions and messages.
@@ -9,7 +9,7 @@ This website is running on a localhost provided by Tomcat v9.0.
 Although we tried to adapt this system to most platforms, it turns out there are still some unsolved problems. However, it has the best adaption to Chrome.
 
 ### Database
-The website has an outer database supported by MySQL. 
+The website has an outer database supported by MySQL.
 This the structure of our scheme:
 
 CREATE DATABASE
@@ -128,7 +128,7 @@ If you want to run this system on your own server, please check the following li
 
 ### Normal Users
 
-- Register: signup.jsp 
+- Register: signup.jsp
 >Users can register the system through signup.jsp. All users created through this page are regarded as normal ones.
 
 - Login: login.jsp
@@ -157,7 +157,7 @@ If you want to run this system on your own server, please check the following li
 - Manage News
   - Publish news: addnews.jsp
   - Read news: managernews.jsp
-  
+
 - Manage Messages: managermessage.jsp
 > Including read and audit messages.
 
